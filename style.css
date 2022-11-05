@@ -69,9 +69,7 @@ del {
   font-size: 50px;
   font-weight: bold;
 }
-.perfume-card-btn {
-}
-.perfume-card-btn button {
+.perfume-card-btn button{
   background: hsl(158, 36%, 37%);
   width: 320px;
   height: 65px;
@@ -79,4 +77,13 @@ del {
   border-radius: 10px;
   color: white;
   font-size: 20px;
+  cursor: pointer;
+  transition-duration: .6s;
+}
+
+.perfume-card-btn button:hover {
+  background-color: rgba(22, 55, 24, 0.992);
+  cursor: pointer;
+  width: 320px;
+  border-radius: 10px;
 }
